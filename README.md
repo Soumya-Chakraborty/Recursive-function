@@ -16,7 +16,7 @@ Swap the last element with the element at index k
     int temp = A[size-1];
     A[size-1] = A[k];
     A[k] = temp;
-}
+    }
 
 A recursive function to partition an array A[low..high]
 around a pivot element A[high]
@@ -98,4 +98,4 @@ Recur on subarray containing elements that are less than the pivot
     }
     
     return 0;
-}
+    }
