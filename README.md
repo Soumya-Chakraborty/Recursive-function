@@ -1,7 +1,8 @@
 # Given an unsorted array, A, of integers and an integer k, write recursive program using C language for rearranging the elements in A so that all elements less than or equal to k come before any elements larger than k
 
+The below code is ©Soumya_Chakraborty 
+    
     #include <stdio.h>
-
 Function prototype for partitioning the array
 
      void partition(int A[], int low, int high);
@@ -99,3 +100,4 @@ Recur on subarray containing elements that are less than the pivot
     
     return 0;
     }
+The above code is ©Soumya_Chakraborty 
